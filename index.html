@@ -21,75 +21,63 @@
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
+    <link rel="stylesheet" href="./style.css"/>
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Gallery Site</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <div class="profile">
+      <img src="./profilePhoto.png"/>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+      <div class="profile-name">
+        Rodney Cotton
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="profile-location">
+        Helsinki, Finland
+      </div>
+
+      <div class="profile-stats">
+        <div class="profile-stats-container">
+          <div class="profile-stats-number">
+            6
+          </div>
+          <div class="profile-stats-text">
+            Posts
+          </div>
+        </div>
+        <div class="profile-stats-container">
+          <div class="profile-stats-number">
+            2242
+          </div>
+          <div class="profile-stats-text">
+            Followers
+          </div>
+        </div>
+        <div class="profile-stats-container">
+          <div class="profile-stats-number">
+            1432
+          </div>
+          <div class="profile-stats-text">
+            Following
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="gallery">
+      <img class="gallery-one" src="./photo1.png"/>
+      <img class="gallery-two" src="./photo2.png"/>
+      <img class="gallery-three" src="./photo3.png"/>
+      <img class="gallery-four" src="./photo_4.png"/>
+      <img class="gallery-five" src="./photo5.png"/>
+      <img class="gallery-six" src="./photo6.png"/>
+    </div>
+
+    <footer>
+      created by edeldev - devChallenges.io
+    </footer>
   </body>
 </html>

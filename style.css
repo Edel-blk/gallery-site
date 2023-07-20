@@ -1,0 +1,119 @@
+footer {
+  color: #BDBDBD;
+  text-align: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 15px;
+}
+
+.profile-name {
+  color: #4E5150;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.profile-location {
+  color: #A9A9A9;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.profile-stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+  background: #E5E5E5;
+  width: 78px;
+  height: 52px;
+}
+
+.profile-stats-number {
+  color: #4E5150;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.profile-stats-text {
+  color: var(--gray-4, #BDBDBD);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 10px;
+  grid-auto-rows: minmax(93px, 115px);
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.gallery-one {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.gallery-two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.gallery-three {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.gallery-four {
+  width: 100%;
+  border-radius: 15px;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.gallery-five {
+  width: 100%;
+  border-radius: 15px;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.gallery-six {
+  width: 100%;
+  border-radius: 15px;
+  grid-column: 2;
+  grid-row: 3;
+}
+
