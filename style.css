@@ -70,9 +70,13 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 30%);
   gap: 10px;
-  grid-auto-rows: minmax(93px, 115px);
+  grid-auto-rows: minmax(93px, 123px);
   justify-content: center;
   margin-top: 40px;
+}
+
+.gallery img {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .gallery-one {
@@ -117,3 +121,14 @@ footer {
   grid-row: 3;
 }
 
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 130ch;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    gap: 30px;
+    grid-auto-rows: minmax(93px, 320px);
+  }
+}
