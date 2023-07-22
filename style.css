@@ -73,6 +73,7 @@ footer {
   grid-auto-rows: minmax(93px, 123px);
   justify-content: center;
   margin-top: 40px;
+  grid-template-columns: fit-content(16ch) fit-content(16ch) fit-content(16ch);
 }
 
 .gallery img {
@@ -130,5 +131,6 @@ footer {
   .gallery {
     gap: 30px;
     grid-auto-rows: minmax(93px, 320px);
+    grid-template-columns: repeat(3, 30%);
   }
 }
